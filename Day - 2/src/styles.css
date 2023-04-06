@@ -1,0 +1,42 @@
+body {
+  background: url(https://unsplash.it/1500/1000?image=881&blur=5);
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  height: 25rem;
+  width: 25rem;
+  border: white solid 20px;
+  border-radius: 50%;
+  position: relative;
+}
+.hand {
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  position: absolute;
+  top: 50%;
+  border-radius: 90%;
+}
+.sec-hand {
+  height: 0.5%;
+  width: 50%;
+  background-color: rgb(0 0 0);
+}
+.minute-hand {
+  height: 1%;
+  width: 50%;
+  background-color: rgb(230 117 61);
+}
+.hour-hand {
+  height: 1.5%;
+  width: 30%;
+  background-color: rgb(49 216 125);
+  left: 20%;
+}

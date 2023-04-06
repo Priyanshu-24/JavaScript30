@@ -1,1 +1,1 @@
-Hello this is first commit
+Startting the JavaScript Journey!
