@@ -1,5 +1,7 @@
 body {
-  background: url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background: url(https://source.unsplash.com/8PqU9b_cpbg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0;
   margin: 0;
 }
@@ -13,7 +15,7 @@ body {
 .clock {
   height: 25rem;
   width: 25rem;
-  border: white solid 20px;
+  border: rgb(150 207 255 / 46%) solid 20px;
   border-radius: 50%;
   position: relative;
 }
@@ -27,7 +29,7 @@ body {
 .sec-hand {
   height: 0.5%;
   width: 50%;
-  background-color: rgb(0 0 0);
+  background-color: rgb(255, 255, 255);
 }
 .minute-hand {
   height: 1%;
