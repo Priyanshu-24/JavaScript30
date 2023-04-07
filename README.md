@@ -1,1 +1,1 @@
-Startting the JavaScript Journey!
+Startting the JavaScript Journey
