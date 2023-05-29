@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 .js-30-header {
-  background-color: rgb(17, 15, 15);
+  /* background-color: rgb(17, 15, 15); */
   border-bottom: 2px solid #ffffff;
   color: #ffffff;
   padding: 1rem;
@@ -16,14 +16,6 @@ body {
 }
 .js-30-header h1 {
   margin: 0;
-  width: 33.3%;
-  display: flex;
-}
-.project-title {
-  justify-content: center;
-}
-.my-name {
-  justify-content: end;
 }
 .container {
   margin-top: 100px;
